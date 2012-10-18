@@ -1,5 +1,5 @@
 # Here are the colours from Textmate's Monokai theme:
-# 
+#
 # Black: 0, 0, 0
 # Red: 229, 34, 34
 # Green: 166, 227, 45
@@ -10,11 +10,11 @@
 # White: 242, 242, 242
 
 # The prompt
-PROMPT="%{$fg[magenta]%}┌[%{$fg[green]%}%~%{$fg[magenta]%}]
-└> %{$fg[cyan]%}%n%{$fg[red]%}❤ %{$fg[cyan]%}%M%{$fg[yellow]%} ⨠%{$reset_color%} "
+PROMPT="%{$fg[magenta]%}┌ [%{$fg[green]%}%~%{$fg[magenta]%}]
+└>%{$fg[cyan]%}%n%{$fg[red]%}❤ %{$fg[cyan]%}%M%{$fg[yellow]%} ⨠%{$reset_color%} "
 
 # The right-hand prompt
-RPROMPT='${time} %{$fg[magenta]%}$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%{$reset_color%}$(git_prompt_stash_count)%{$reset_color%}'
+RPROMPT='${time} %{$fg[magenta]%}$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%{$reset_color%}$(git_prompt_stash_count)%{$reset_color%} %{$fg[green]%}$(git_prompt_short_sha)%{$reset_color%}'
 
 # local time, color coded by last return code
 time_enabled="%(?.%{$fg[green]%}.%{$fg[red]%})%*%{$reset_color%}"
@@ -38,7 +38,7 @@ ZSH_THEME_GIT_PROMPT_STASH_COUNT_AFTER="%{$fg[yellow]%}】"
 
 # More symbols to choose from:
 # ☀ ✹ ☄ ♆ ♀ ♁ ♐ ♇ ♈ ♉ ♚ ♛ ♜ ♝ ♞ ♟ ♠ ♣ ⚢ ⚲ ⚳ ⚴ ⚥ ⚤ ⚦ ⚒ ⚑ ⚐ ♺ ♻ ♼ ☰ ☱ ☲ ☳ ☴ ☵ ☶ ☷
-# ✡ ✔ ✖ ✚ ✱ ✤ ✦ ❤ ➜ ➟ ➼ ✂ ✎ ✐ ⨀ ⨁ ⨂ ⨍ ⨎ ⨏ ⨷ ⩚ ⩛ ⩡ ⩱ ⩲ ⩵  ⩶ ⨠ 
+# ✡ ✔ ✖ ✚ ✱ ✤ ✦ ❤ ➜ ➟ ➼ ✂ ✎ ✐ ⨀ ⨁ ⨂ ⨍ ⨎ ⨏ ⨷ ⩚ ⩛ ⩡ ⩱ ⩲ ⩵  ⩶ ⨠
 # ⬅ ⬆ ⬇ ⬈ ⬉ ⬊ ⬋ ⬒ ⬓ ⬔ ⬕ ⬖ ⬗ ⬘ ⬙ ⬟  ⬤ 〒 ǀ ǁ ǂ ĭ Ť Ŧ
 
 # git stash count
