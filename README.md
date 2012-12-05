@@ -4,7 +4,7 @@ zsh my custom using oh-my-zsh
 Base Themes is wedisagree.
 
 + git stash count
-![](http://img.skitch.com/20120413-quwdjkuiq3iw8jafk57gwh8geh.png:)
+![](https://raw.github.com/linc01n/oh-my-zsh-yoshiori/master/git_stash.png)
 
 Setup
 ----------------
@@ -21,4 +21,4 @@ Setup
 
 6. `source ~/.zshrc`
 
-![](http://img.skitch.com/20120413-pngdda5d5dw272kk16b8iw58rm.png)
+![](https://raw.github.com/linc01n/oh-my-zsh-yoshiori/master/sample.png)
