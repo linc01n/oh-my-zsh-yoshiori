@@ -1,7 +1,7 @@
 #export
-export LANG=ja_JP.UTF-8
-export LC_CTYPE="ja_JP.UTF-8"
 export PATH=$HOME/bin:$HOME/Dropbox/bin:/usr/local/bin:$PATH
+export LANG=en_US.UTF-8
+export LC_CTYPE="en_US.UTF-8"
 
 export EDITOR=emacs
 #export JAVA_HOME=/usr/lib/jvm/java-7-icedtea
