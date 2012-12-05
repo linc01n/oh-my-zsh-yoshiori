@@ -1,5 +1,5 @@
 #export
-export PATH=$HOME/bin:$HOME/Dropbox/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 export LANG=en_US.UTF-8
 export LC_CTYPE="en_US.UTF-8"
 
