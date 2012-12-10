@@ -9,8 +9,12 @@
 # Cyan: 103, 217, 240
 # White: 242, 242, 242
 
+#Set rvm
+local rvm_ruby=''
+rvm_ruby='%{$fg[magenta]%}[%{$fg[red]%}$(rvm-prompt i v g)%{$fg[magenta]%}]%{$reset_color%}'
+
 # The prompt
-PROMPT="%{$fg[magenta]%}┌ [%{$fg[green]%}%~%{$fg[magenta]%}]
+PROMPT="%{$fg[magenta]%}┌ [%{$fg[green]%}%~%{$fg[magenta]%}]${rvm_ruby}
 └>%{$fg[cyan]%}%n%{$fg[red]%}❤ %{$fg[cyan]%}%M%{$fg[yellow]%} ⨠%{$reset_color%} "
 
 # The right-hand prompt
