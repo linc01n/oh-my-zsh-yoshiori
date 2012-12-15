@@ -11,14 +11,14 @@
 
 #Set rvm
 local rvm_ruby=''
-rvm_ruby='%{$fg[magenta]%}[%{$fg[red]%}$(rvm-prompt i v g)%{$fg[magenta]%}]%{$reset_color%}'
+rvm_ruby='%{$fg[magenta]%}[%{$fg[red]%}$(rvm-prompt i v g)%{$fg[magenta]%}]'
 
 # The prompt
 PROMPT="%{$fg[magenta]%}┌ [%{$fg[green]%}%~%{$fg[magenta]%}]${rvm_ruby}
 └>%{$fg[cyan]%}%n%{$fg[red]%}❤ %{$fg[cyan]%}%M%{$fg[yellow]%} ⨠%{$reset_color%} "
 
 # The right-hand prompt
-RPROMPT='${time} %{$fg[magenta]%}$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%{$reset_color%}$(git_prompt_stash_count)%{$reset_color%} %{$fg[green]%}$(git_prompt_short_sha)%{$reset_color%}'
+RPROMPT='${time} %{$fg[magenta]%}$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%{$reset_color%}$(git_prompt_stash_count)%{$reset_color%} %{$fg[green]%}$(git_prompt_short_sha)%{$reset_color%}[$(battery_time_remaining)]'
 
 # local time, color coded by last return code
 time_enabled="%(?.%{$fg[green]%}.%{$fg[red]%})%*%{$reset_color%}"
