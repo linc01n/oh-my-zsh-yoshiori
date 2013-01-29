@@ -1,5 +1,5 @@
 #export
-export PATH=$HOME/bin:/usr/local/bin:$PATH:/usr/local/share/npm/bin
+export PATH=$HOME/bin:/usr/local/bin:$PATH:/usr/local/share/npm/bin:/usr/local/share/python
 export LANG=en_US.UTF-8
 export LC_CTYPE="en_US.UTF-8"
 
