@@ -61,5 +61,5 @@ setopt print_eight_bit
 
 
 # cdの後に自動的にls -la
-function chpwd() { ls -la }
+function chpwd() { ls }
 
