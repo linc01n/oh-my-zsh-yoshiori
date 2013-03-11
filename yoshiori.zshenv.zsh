@@ -9,7 +9,6 @@ export JAVA_OPTS='-Dfile.encoding=UTF-8'
 export PYTHONSTARTUP=$HOME/.pythonrc.py
 
 #alias
-alias emacs="emacsclient -a emacs"
 alias ls='ls -Gv'
 
 # rvm
