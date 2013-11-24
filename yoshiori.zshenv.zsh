@@ -7,6 +7,7 @@ export EDITOR=emacs
 #export JAVA_HOME=/usr/lib/jvm/java-7-icedtea
 export JAVA_OPTS='-Dfile.encoding=UTF-8'
 export PYTHONSTARTUP=$HOME/.pythonrc.py
+export ANDROID_HOME=/usr/local/opt/android-sdk
 
 #alias
 alias ls='ls -Gv'
