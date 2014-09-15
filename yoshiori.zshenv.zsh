@@ -10,7 +10,8 @@ export PYTHONSTARTUP=$HOME/.pythonrc.py
 export ANDROID_HOME=/usr/local/opt/android-sdk
 
 #alias
-alias ls='ls -Gv'
+alias ls='els'
+alias git='/usr/local/bin/git'
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
