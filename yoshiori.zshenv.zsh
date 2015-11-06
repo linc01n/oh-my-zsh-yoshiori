@@ -25,5 +25,5 @@ case $OSTYPE {
         plugins=(git);;
     darwin*)
         ZSH_THEME="yoshiori"
-        plugins=(git osx ruby brew battery);;
+        plugins=(git osx ruby brew battery brew-cask);;
 }
