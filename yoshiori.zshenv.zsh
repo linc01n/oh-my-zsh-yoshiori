@@ -11,10 +11,10 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 
 #alias
 alias git='/usr/local/bin/git'
-alias e='emacsclient -tn'
-alias ec='emacsclient -cn'
-alias vim='emacsclient -tn'
-alias vi='emacsclient -tn'
+alias e='emacsclient -t -n'
+alias ec='emacsclient -c -n'
+alias vim='emacsclient -t -n'
+alias vi='emacsclient -t -n'
 alias ls='ls --color'
 
 # rvm
