@@ -19,6 +19,7 @@ alias vim='emacsclient -t -n'
 alias vi='emacsclient -t -n'
 alias more='pygmentize'
 alias be='bundle exec'
+alias ls='ls --color'
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
